@@ -28,5 +28,5 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: moonlight-extreme-edition
-          path: app/build/outputs/apk/debug/*.apk
+          name: moonlight-1gbps-edition
+          path: app/build/outputs/apk/**/*.apk
